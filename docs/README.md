@@ -1,6 +1,4 @@
-# react-native-dev-book
-
-> React Native 入门开发小册
+# 前言
 
 ![react_native_vs_native_apps.png](./images/react_native_vs_native_apps.png)
 
