@@ -1,7 +1,7 @@
 {
-  "name": "vue3docs",
+  "name": "react-native-dev-book",
   "version": "1.0.0",
-  "description": "Vue 3.0 构建项目及开发知识小册。",
+  "description": "React Native 构建项目及开发知识小册。",
   "main": "index.js",
   "directories": {
     "doc": "docs"

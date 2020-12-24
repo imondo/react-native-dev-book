@@ -379,8 +379,8 @@ body {
 }
 
 #book_content strong {
-  color: #3eaf7c;
-  font-weight: 500;
+  color: #333;
+  font-weight: 600;
 }
 
 #book_sidebar a.selected {
