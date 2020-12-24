@@ -44,10 +44,9 @@ export default () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        tabBarOptions={{ // tab style
+        tabBarOptions={{
           activeTintColor: '#FE9727',
           inactiveTintColor: '#222222',
-          // tabStyle: {},
         }}>
         <Tab.Screen
           name="Home" // 路由名称
