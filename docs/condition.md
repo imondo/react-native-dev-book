@@ -38,7 +38,7 @@
 
 当我们安装完上面一系列的环境后，如果一起顺利的话，我们就可以准备初始项目，跑起来一个 Hello World
 
-我们运行项目前需要打开 android 模拟器![image.png](../images/condition/android.png)
+我们运行项目前需要打开 android 模拟器![image.png](./images/condition/android.png)
 
 ### 运行项目
 ```shell
@@ -51,11 +51,11 @@ yarn android
 
 第一运行项目，编译时间可能会比较长，如果一切顺利会弹出一个 cmd 框，这个运行项目的时候是不能关闭的，它是一个 node 监听服务。
 
-![image.png](../images/condition/image1.png)
+![image.png](./images/condition/image1.png)
 
 模拟器上出现界面
 
-![image.png](../images/condition/image2.png)
+![image.png](./images/condition/image2.png)
 
 恭喜你万里长征已经走了一半了！
 
@@ -66,28 +66,28 @@ yarn android
 
 启动命令编译时抛出异常
 
-![image.png](../images/condition/image3.png)
+![image.png](./images/condition/image3.png)
 
 需要我们找到 Android Studio 安装目录下 jre 目录
 
 设置系统变量 JAVA_HOME
 
-![image.png](../images/condition/image4.png)
+![image.png](./images/condition/image4.png)
 
 对应的 PATH 路径需要添加两条记录
 ```javascript
 %JAVA_HOME%\bin
 %JAVA_HOME%\jre\bin
 ```
-![image.png](../images/condition/image5.png)
+![image.png](./images/condition/image5.png)
 
-**重新打开 cmd 运行成功**![image.png](../images/condition/image6.png)
+**重新打开 cmd 运行成功**![image.png](./images/condition/image6.png)
 
 ### 异常 app:installDebug
 
 抛出异常
 
-![image.png](../images/condition/image7.png)
+![image.png](./images/condition/image7.png)
 
 在 **android** 目录下查看 `local.properties` 文件，没有自己新建一个，指定 `android sdk` 安装目录
 
@@ -97,7 +97,7 @@ sdk.dir=E\:\\androidsdk
 
 ### 异常  Text strings must be rendered within a <Text> component
 
-![image.png](../images/condition/image8.png)
+![image.png](./images/condition/image8.png)
 
 - 要删除代码行中的注释
 - Text 组件需要判断值，不能为空字符串

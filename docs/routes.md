@@ -81,7 +81,7 @@ export default function App() {
 ```
 效果如下
 
-![rn.gif](../images/routes/rn.gif)
+![rn.gif](./images/routes/rn.gif)
 
 ## 嵌套路由
 底部导航嵌套多个子路由页面，主页面 -> 子页面，这里需要使用到 Stack 栈导航
@@ -113,7 +113,7 @@ export default HomeStackScreen;
 ```
 效果如下
 
-![rn12.gif](../images/routes/rn12.gif)
+![rn12.gif](./images/routes/rn12.gif)
 
 ## 路由传值
 由于路由放入导航后，路由页面默认接收 `navigation` 对象，使用 `navigation.navigate` 方法跳转页面传入参数
@@ -135,7 +135,7 @@ const Details = ({route, navigation}) => {
 ```
 `navigation` 对象中存在部分方法
 
-![image.png](../images/routes/image1.png)
+![image.png](./images/routes/image1.png)
 
 - `setOptions` 动态修改页面 Head 
 - `goBack` 返回

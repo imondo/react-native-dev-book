@@ -14,8 +14,11 @@
     "server": "static-html-server -p 5000"
   },
   "keywords": [
-    "vue",
-    "vue3",
+    "react",
+    "react native",
+    "react-native",
+    "rn",
+    "RN",
     "markdown"
   ],
   "license": "MIT"
