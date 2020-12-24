@@ -47,7 +47,7 @@ export default () => {
         tabBarOptions={{ // tab style
           activeTintColor: '#FE9727',
           inactiveTintColor: '#222222',
-          tabStyle: {},
+          // tabStyle: {},
         }}>
         <Tab.Screen
           name="Home" // 路由名称
