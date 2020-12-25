@@ -34,7 +34,7 @@ React Native 由于并不支持 CSS3 动画，所以我们实现动画效果需�
 
 ### Loading 动画
 实现效果
-![loading.gif](./images/loading.gif)
+![loading.gif](../images/loading.gif)
 
 直接上代码
 

@@ -6,7 +6,7 @@
 
 React Native 调试可以使用 `Android Studio` 自带的模拟器
 
-![image.png](./images/degubber/image1.png)
+![image.png](../images/degubber/image1.png)
 
 也可以使用第三方模拟器；这里选用雷电模拟器
 
@@ -17,16 +17,16 @@ React Native 调试可以使用 `Android Studio` 自带的模拟器
    - 不同模拟器的端口号是不同的
 - 在项目根目录下运行 `yarn android`
 
-![image.png](./images/degubber/image2.png)
+![image.png](../images/degubber/image2.png)
 
 如果出现 adb 不是命令，需要添加环境变量，找到 `Android Studio JDK` 安装目录下 `platform-tools` 目录
 
-![image.png](./images/degubber/image3.png)
+![image.png](../images/degubber/image3.png)
 
 
 ### 调试
 点击更多 -> 摇一摇 -> debug
-![image.png](./images/degubber/image4.png)
+![image.png](../images/degubber/image4.png)
 
 
 ### Chrome 调试
@@ -40,7 +40,7 @@ React Native 调试可以使用 `Android Studio` 自带的模拟器
 
 项目成功启动后会在手机上看到启动的程序，如果需要调试，需要**摇一摇**手机可以看到弹框
 
-![image.png](./images/degubber/image5.png)
+![image.png](../images/degubber/image5.png)
 
 选择 **Debug** 利用 Chrome 调试
 
@@ -55,7 +55,7 @@ React Native 调试可以使用 `Android Studio` 自带的模拟器
 - ` Android Studio` 模拟器中的** **`Nexus S` ，因为这个模型是有菜单键的，高版本的模拟器通常没有。
 -  使用快捷键 `Ctrl+M` 也可以打开菜单栏。
 
-![image.png](./images/degubber/image6.png)
+![image.png](../images/degubber/image6.png)
 
 ## 跨域处理
 

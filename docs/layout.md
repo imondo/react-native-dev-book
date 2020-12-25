@@ -93,12 +93,12 @@ React Native** **中布局**不能使用 float 来进行布局，**有且支持
 
 这里不展开具体的布局写法，写法和 CSS 写法大致一样，只不过有些 CSS 属性在 React Native 中不被支持，如果写的有异常，模拟器会抛出异常。
 
-![image.png](./images/layout/image1.png)
+![image.png](../images/layout/image1.png)
 
 所以大可不必对其做过多了解，只要 web css 过关，布局这块是没有多少问题，移动端全面支持 Flexbox，如果对布局方式不了解，推荐阅读阮一峰的 [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ## 组件
-![image.png](./images/layout/image2.png)
+![image.png](../images/layout/image2.png)
 
 [官方文档](https://reactnative.cn/docs/components-and-apis)中提到的所有组件都可以使用。
 
@@ -106,7 +106,7 @@ React Native** **中布局**不能使用 float 来进行布局，**有且支持
 
 [Button](https://reactnative.cn/docs/button) 按钮组件是个基础组件
 
-![image.png](./images/layout/image3.png)
+![image.png](../images/layout/image3.png)
 
 但是它是不接受样式定义的，需要我们自己使用 `TouchableOpacity` 或是 `TouchableNativeFeedback` 组件来自定义 Button
 
@@ -138,7 +138,7 @@ const Styles = StyleSheet.create({
 export default Button;
 
 ```
-![image.png](./images/layout/image4.png)
+![image.png](../images/layout/image4.png)
 
 
 ### Text
