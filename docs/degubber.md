@@ -49,11 +49,10 @@ React Native 调试可以使用 `Android Studio` 自带的模拟器
 
 使用：
 
--  关闭 Chrome 浏览器中所有的 [http://localhost:8081/debugger-ui/](http://localhost:8081/debugger-ui/) 页面（RN默认的 debugger 工具）
-
-- 下载 [react-native-debugger](https://github.com/jhen0409/react-native-debugger/releases) 应用
-- ` Android Studio` 模拟器中的** **`Nexus S` ，因为这个模型是有菜单键的，高版本的模拟器通常没有。
--  使用快捷键 `Ctrl+M` 也可以打开菜单栏。
+* 关闭 Chrome 浏览器中所有的 [http://localhost:8081/debugger-ui/](http://localhost:8081/debugger-ui/) 页面（RN默认的 debugger 工具）
+* 下载 [react-native-debugger](https://github.com/jhen0409/react-native-debugger/releases) 应用
+* ` Android Studio` 模拟器中的** **`Nexus S` ，因为这个模型是有菜单键的，高版本的模拟器通常没有。
+* 使用快捷键 `Ctrl+M` 也可以打开菜单栏。
 
 ![image.png](../images/degubber/image6.png)
 
