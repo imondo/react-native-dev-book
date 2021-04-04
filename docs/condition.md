@@ -11,6 +11,10 @@
 - `JDK` 必须是 1.8 版本或者 8 版本
 - `Android Studio`
 
+### Java 安装
+
+jdk 安装需要安装 1.8 版本，环境安装可以参考[这篇博客](https://blog.csdn.net/weixin_44084189/article/details/98966787/)
+
 ### Android 环境
 
 - 下载 [Android Studio](https://developer.android.com/studio/index.html)，安装界面 Custom 确认选中下列项：
